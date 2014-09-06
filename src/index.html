@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+    <head>
+        <title>Association Up2green Reforestation</title>
+        <link rel="shortcut icon" href="images/favicon.ico" />
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Nous sommes l'association Up2green Reforestation. Nos objectifs sont de développer et promouvoir toute action positive en lien avec la lutte contre le réchauffement climatique:  reforestation, conservation de la biodiversité et des écosystèmes et aide aux populations affectées par la dégradation de leur environnement" />
+        <meta name="keywords" content="reforestation, environement, écosystème, diversité" />
+
+        <!-- build:css css/all.css -->
+        <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="libs/league-gothic/webfonts/stylesheet.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <!-- endbuild -->
+
+        <!-- build:js js/all.js -->
+        <script src="libs/angular/angular.js"></script>
+        <script src="libs/angular-scroll/angular-scroll.js"></script>
+        <script src="libs/ng-parallax/angular-parallax.js"></script>
+        <script src="libs/angular-youtube-mb/src/angular-youtube-embed.js"></script>
+
+        <script src="js/main.js"></script>
+        <!-- endbuild -->
+    </head>
+
+    <body ng-controller="IndexController">
+
+        <section id="home" du-parallax custom="background">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8" du-parallax opacity="fadeOut">
+                        <h1>Nous sommes Up2green, <em>l'association pour la reforestation</em></h1>
+                        <p class="lead">Nos objectifs sont de développer et promouvoir toute action positive en lien avec la lutte contre le réchauffement climatique: <strong>reforestation</strong>, conservation de la <strong>biodiversité</strong> et des écosystèmes et aide aux populations affectées par la dégradation de leur <strong>environnement</strong></p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="img-responsive" src="images/logos/logo-central.png" alt="Up2green" du-parallax x="logo" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="activities">
+            <div class="container">
+                <h2 class="text-center text-capitalize">Nos Activités</h2>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="#blog" du-smooth-scroll duration="1000">
+                            <img class="img-responsive" src="images/blocs/blog.png" alt="Blog" />
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="#facebook" du-smooth-scroll duration="1000">
+                            <img class="img-responsive" src="images/blocs/facebook.png" alt="Facebook" />
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="#plantation" du-smooth-scroll duration="1000">
+                            <img class="img-responsive" src="images/blocs/plantation.png" alt="Plantation" />
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="#education" du-smooth-scroll duration="2000">
+                            <img class="img-responsive" src="images/blocs/education.png" alt="Education" />
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="img-responsive center-block" style="height: 253px" src="images/logos/logo-central.png" alt="Up2green" />
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="#search" du-smooth-scroll duration="2000">
+                            <img class="img-responsive" src="images/blocs/search.png" alt="Moteur de recherche" />
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="#video" du-smooth-scroll duration="3000">
+                            <img class="img-responsive" src="images/blocs/video.png" alt="Nos Videos" />
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="#jao" du-smooth-scroll duration="3000">
+                            <img class="img-responsive" src="images/blocs/jao.png" alt="Jao" />
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="#contact" du-smooth-scroll duration="3000">
+                            <img class="img-responsive" src="images/blocs/contact.png" alt="Contactez nous" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h3>Le blog</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum augue at massa ultricies, laoreet lobortis ex aliquet. Donec semper sed metus viverra vehicula. Vivamus tempus, odio in efficitur malesuada.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="img-responsive" src="images/blocs/blog.png" alt="Blog" du-parallax x="sectionImageOdd" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="facebook">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="img-responsive" src="images/blocs/facebook.png" alt="Facebook" du-parallax x="sectionImageEven" />
+                    </div>
+                    <div class="col-sm-8">
+                        <h3>Facebook</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum augue at massa ultricies, laoreet lobortis ex aliquet. Donec semper sed metus viverra vehicula. Vivamus tempus, odio in efficitur malesuada.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="plantation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h3>Plantation</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum augue at massa ultricies, laoreet lobortis ex aliquet. Donec semper sed metus viverra vehicula. Vivamus tempus, odio in efficitur malesuada.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="img-responsive" src="images/blocs/plantation.png" alt="Plantation" du-parallax x="sectionImageOdd" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="img-responsive" src="images/blocs/education.png" alt="Education" du-parallax x="sectionImageEven" />
+                    </div>
+                    <div class="col-sm-8">
+                        <h3>Education</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum augue at massa ultricies, laoreet lobortis ex aliquet. Donec semper sed metus viverra vehicula. Vivamus tempus, odio in efficitur malesuada.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="search">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h3>Moteur de recherche</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum augue at massa ultricies, laoreet lobortis ex aliquet. Donec semper sed metus viverra vehicula. Vivamus tempus, odio in efficitur malesuada.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="img-responsive" src="images/blocs/search.png" alt="Moteur de recherche" du-parallax x="sectionImageOdd" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="video">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <youtube-video video-id="'k4zf8s-Dzi8'" player-width="'560px'" player-height="'315px'"></youtube-video>
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>Video</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum augue at massa ultricies, laoreet lobortis ex aliquet. Donec semper sed metus viverra vehicula. Vivamus tempus, odio in efficitur malesuada.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="jao">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h3>Jao</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum augue at massa ultricies, laoreet lobortis ex aliquet. Donec semper sed metus viverra vehicula. Vivamus tempus, odio in efficitur malesuada.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="img-responsive" src="images/blocs/jao.png" alt="Jao" du-parallax x="sectionImageOdd" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="img-responsive" src="images/blocs/contact.png" alt="Contact" du-parallax x="sectionImageEven" />
+                    </div>
+                    <div class="col-sm-8">
+                        <h3>Contactez-nous</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum augue at massa ultricies, laoreet lobortis ex aliquet. Donec semper sed metus viverra vehicula. Vivamus tempus, odio in efficitur malesuada.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html>

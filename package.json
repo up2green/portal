@@ -1,0 +1,16 @@
+{
+  "name": "up2green-portal",
+  "licence": "proprietary",
+  "author": "Clément Gautier <clement.gautier@up2green.com>",
+  "repository": {},
+  "preferGlobal": true,
+  "devDependencies": {
+    "bower": "~1.3.9",
+    "gulp-usemin": "~0.3.11",
+    "gulp": "~3.8.11",
+    "gulp-uglify": "~1.1.0",
+    "gulp-minify-html": "~0.1.8",
+    "gulp-minify-css": "~0.4.5",
+    "gulp-rev": "~3.0.0"
+  }
+}
