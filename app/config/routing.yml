@@ -1,0 +1,5 @@
+up2green_portal:
+    resource: "@Up2greenPortalBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

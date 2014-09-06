@@ -1,0 +1,24 @@
+{% extends '::base.html.twig' %}
+
+{% block stylesheets %}
+
+    {% stylesheets filter='lessphp,cssrewrite,?uglifycss' output='css/main.css'
+        'bundles/up2greenportal/less/main.less'
+    %}
+        <link href="{{ asset_url }}" type="text/css" rel="stylesheet" />
+    {% endstylesheets %}
+
+{% endblock %}
+
+{% block body %}
+    {% block content '' %}
+{% endblock %}
+
+{% block javascripts %}
+    {% javascripts filter='?uglifyjs2' output='js/compiled/main.js'
+        'vendor/jquery/src/jquery.js'
+        'bundles/up2greenportal/js/main.js'
+    %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

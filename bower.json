@@ -1,0 +1,8 @@
+{
+    "name": "up2green-portal",
+    "licence": "proprietary",
+    "author": "Clément Gautier <clement.gautier@up2green.com>",
+    "dependencies": {
+        "jquery": "~2.1.1"
+    }
+}
