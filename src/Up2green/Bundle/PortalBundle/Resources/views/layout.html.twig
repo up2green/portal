@@ -4,6 +4,7 @@
 
     {% stylesheets filter='cssrewrite,less,?uglifycss' output='css/main.css'
         'vendor/bootstrap/less/bootstrap.less'
+        'vendor/scrollpath/style/scrollpath.css'
         'bundles/up2greenportal/less/main.less'
     %}
         <link href="{{ asset_url }}" type="text/css" rel="stylesheet" />
@@ -12,13 +13,16 @@
 {% endblock %}
 
 {% block body %}
-    {% block content '' %}
+    <div id="content">
+        {% block content '' %}
+    </div>
 {% endblock %}
 
 {% block javascripts %}
     {% javascripts filter='?uglifyjs2' output='js/compiled/main.js'
-        'vendor/bootstrap/dist/js/bootstrap.js'
         'vendor/jquery/dist/jquery.js'
+        'vendor/bootstrap/dist/js/bootstrap.js'
+        'vendor/scrollpath/script/jquery.scrollpath.js'
         'bundles/up2greenportal/js/main.js'
     %}
     <script type="text/javascript" src="{{ asset_url }}"></script>
