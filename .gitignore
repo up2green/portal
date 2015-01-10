@@ -12,4 +12,5 @@
 /bin/
 /composer.phar
 /web/vendor/
+/web/media/cache
 /node_modules/

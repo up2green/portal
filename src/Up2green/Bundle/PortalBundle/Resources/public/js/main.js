@@ -15,7 +15,6 @@ $(function() {
     $("#section-8").css({top: (h*2)+'px', left: w+'px'});
     $("#section-9").css({top: (h*2)+'px', left: (w*2)+'px'});
 
-    $("#section-5 .item").css({height: (h/3)+'px'});
 
     var path = $.fn.scrollPath("getPath")
         .moveTo(w+w/2, h+h/2, {name: 'section-5'})
@@ -32,6 +31,10 @@ $(function() {
         drawPath: false,
         wrapAround: false,
         scrollBar: false
+    });
+
+    $( "[data-target-section]" ).click(function() {
+        $.fn.scrollPath("scrollTo", $(this).data('target-section'), $(this).data('animation-duration'));
     });
 });
 

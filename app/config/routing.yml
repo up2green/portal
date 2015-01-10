@@ -3,3 +3,5 @@ up2green_portal:
     type:     annotation
     prefix:   /
 
+_liip_imagine:
+    resource: "@LiipImagineBundle/Resources/config/routing.xml"
