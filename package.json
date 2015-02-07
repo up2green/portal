@@ -1,14 +1,16 @@
 {
-    "name": "up2green-portal",
-    "licence": "proprietary",
-    "author": "Clément Gautier <clement.gautier@up2green.com>",
-    "repository" : {
-    },
-    "dependencies": {
-        "bower": "~1.3.9",
-        "uglify-js": "~2.4.15",
-        "uglifycss": "~0.0.9",
-        "less": "~1.7.5"
-    },
-    "preferGlobal": true
+  "name": "up2green-portal",
+  "licence": "proprietary",
+  "author": "Clément Gautier <clement.gautier@up2green.com>",
+  "repository": {},
+  "dependencies": {
+    "bower": "~1.3.9",
+    "uglify-js": "~2.4.15",
+    "uglifycss": "~0.0.9",
+    "less": "~1.7.5"
+  },
+  "preferGlobal": true,
+  "devDependencies": {
+    "gulp-usemin": "~0.3.11"
+  }
 }

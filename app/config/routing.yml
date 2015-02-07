@@ -1,7 +1,0 @@
-up2green_portal:
-    resource: "@Up2greenPortalBundle/Controller/"
-    type:     annotation
-    prefix:   /
-
-_liip_imagine:
-    resource: "@LiipImagineBundle/Resources/config/routing.xml"
