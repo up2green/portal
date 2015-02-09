@@ -1,3 +1,29 @@
 #home {
-    background-image: url("/images/background/winter.jpg");
+    background-image: url("http://lorempixel.com/1600/600/nature/1");
+    text-shadow: 2px 2px 4px black;
+}
+
+#activities .row > div{
+    padding: 10px;
+}
+
+section {
+    position: relative;
+    z-index: 0;
+    padding: 50px;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+    font-size: 110px;
+}
+
+img.parallax {
+    position: relative;
+    z-index: 0;
+    margin: -10% 0;
+    max-width: 100%;
 }
