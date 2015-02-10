@@ -11,15 +11,16 @@
         <meta name="keywords" content="reforestation, environement, écosystème, diversité" />
 
         <!-- build:css css/all.css -->
-        <link rel="stylesheet" href="css/main.css" />
         <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="libs/league-gothic/webfonts/stylesheet.css" />
+        <link rel="stylesheet" href="css/main.css" />
         <!-- endbuild -->
 
         <!-- build:js js/all.js -->
         <script src="libs/angular/angular.js"></script>
         <script src="libs/angular-scroll/angular-scroll.js"></script>
         <script src="libs/ng-parallax/angular-parallax.js"></script>
-        <script src="libs/angular-scroll/angular-scroll.js"></script>
+        <script src="libs/angular-youtube-mb/src/angular-youtube-embed.js"></script>
 
         <script src="js/main.js"></script>
         <!-- endbuild -->
@@ -30,7 +31,7 @@
         <section id="home" du-parallax custom="background">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-8">
+                    <div class="col-sm-8" du-parallax opacity="fadeOut">
                         <h1>Nous sommes Up2green, <em>l'association pour la reforestation</em></h1>
                         <p class="lead">Nos objectifs sont de développer et promouvoir toute action positive en lien avec la lutte contre le réchauffement climatique: <strong>reforestation</strong>, conservation de la <strong>biodiversité</strong> et des écosystèmes et aide aux populations affectées par la dégradation de leur <strong>environnement</strong></p>
                     </div>
@@ -43,7 +44,7 @@
 
         <section id="activities">
             <div class="container">
-                <h2>Nos Activités</h2>
+                <h2 class="text-center text-capitalize">Nos Activités</h2>
 
                 <div class="row">
                     <div class="col-sm-4">
@@ -170,10 +171,10 @@
         <section id="video">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4">
-                        <img class="img-responsive" src="images/blocs/video.png" alt="Video" du-parallax x="sectionImageEven" />
+                    <div class="col-sm-6">
+                        <youtube-video video-id="'k4zf8s-Dzi8'" player-width="'560px'" player-height="'315px'"></youtube-video>
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-sm-6">
                         <h3>Video</h3>
                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum augue at massa ultricies, laoreet lobortis ex aliquet. Donec semper sed metus viverra vehicula. Vivamus tempus, odio in efficitur malesuada.</p>
                     </div>
